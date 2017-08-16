@@ -1,24 +1,24 @@
 <?php
 
-namespace bigpaulie\social\share;
+namespace alkurn\socialshare;
 
 use yii\web\AssetBundle;
 
 /**
  * Class ShareAsset
- * @package bigpaulie\social\share
+ * @package alkurn\socialshare
  */
 class ShareAsset extends AssetBundle {
     
-    public $sourcePath = '@vendor/bigpaulie/yii2-social-share/src';
+    public $sourcePath = '@vendor/alkurn/yii2-socialshare/src';
     
     public $js = [
         'assets/js/social-share.js',
     ];
     
     public $depends = [
-        'bigpaulie\social\share\BootstrapSocialAsset',
-        'bigpaulie\social\share\FontAwesomeAsset'
+        'alkurn\socialshare\BootstrapSocialAsset',
+        'alkurn\socialshare\FontAwesomeAsset'
     ];
     
 }

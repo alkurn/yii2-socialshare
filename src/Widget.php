@@ -1,14 +1,14 @@
 <?php
 
-namespace bigpaulie\social\share;
+namespace alkurn\socialshare;
 
 use yii\helpers\Url;
 use \yii\web\View;
-use bigpaulie\social\share\ShareAsset;
+use alkurn\socialshare\ShareAsset;
 
 /**
  * Class Widget
- * @package bigpaulie\social\share
+ * @package alkurn\socialshare
  */
 class Widget extends \yii\base\Widget {
 

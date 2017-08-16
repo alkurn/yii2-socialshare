@@ -18,11 +18,11 @@
     "require": {
         "php": ">= 5.4",
         "yiisoft/yii2": "2.*",
-        "bower-asset/bootstrap-social": "~4.0"
+        "bower/bootstrap-social": "~4.0"
     },
     "autoload": {
         "psr-4": {
-            "alkurn\\socialshare\\": ""
+            "alkurn\\socialshare\\": "src"
         }
     }
 }

@@ -1,4 +1,4 @@
-# yii2-social-share
+# yii2-socialshare
 [![Latest Stable Version](https://poser.pugx.org/alkurn/yii2-socialshare/v/stable)](https://packagist.org/packages/alkurn/yii2-socialshare) [![Total Downloads](https://poser.pugx.org/alkurn/yii2-socialshare/downloads)](https://packagist.org/packages/alkurn/yii2-socialshare) [![Latest Unstable Version](https://poser.pugx.org/alkurn/yii2-socialshare/v/unstable)](https://packagist.org/packages/alkurn/yii2-socialshare) [![License](https://poser.pugx.org/alkurn/yii2-socialshare/license)](https://packagist.org/packages/alkurn/yii2-socialshare)
 
 Yii2 Social Link Sharer 

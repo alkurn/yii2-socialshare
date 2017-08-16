@@ -2,12 +2,12 @@
 
 namespace alkurn\socialshare;
 
-use bigpaulie\social\share\Widget;
+use alkurn\socialshare\Widget;
 use yii\helpers\Html;
 
 /**
  * Class Share
- * @package bigpaulie\social\share
+ * @package alkurn\socialshare
  */
 class Share extends Widget {
 

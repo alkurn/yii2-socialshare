@@ -1,12 +1,12 @@
 <?php
 
-namespace bigpaulie\social\share;
+namespace alkurn\socialshare;
 
 use yii\web\AssetBundle;
 
 /**
  * Class BootstrapSocialAsset
- * @package bigpaulie\social\share
+ * @package alkurn\socialshare
  */
 class BootstrapSocialAsset extends AssetBundle{
     
