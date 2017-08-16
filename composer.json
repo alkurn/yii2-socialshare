@@ -1,0 +1,28 @@
+{
+    "name": "alkurn/yii2-socialshare",
+    "description": "Yii2 Social Link Sharer Extension",
+    "keywords": ["social","share","widget","yii2"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://gitlab.com/alkurn/yii2-upload/issue",
+        "source": "https://gitlab.com/alkurn/yii2-upload"
+    },
+    "authors": [
+        {
+            "name": "Ganesh",
+            "email": "ganesh.alkurn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 5.4",
+        "yiisoft/yii2": "2.*",
+        "bower/bootstrap-social": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "alkurn\\socialshare\\": "src"
+        }
+    }
+}
