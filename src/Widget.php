@@ -155,7 +155,7 @@ class Widget extends \yii\base\Widget {
                 case self::TYPE_SMALL:
                     $button = str_replace(
                         '{button}',
-                        '<a href="#" class="btn btn-social-icon btn-{network}" onClick="sharePopup(\'' . $url . '\');">'
+                        '<a href="#" data-toggle="tooltip" data-placement="top" title="Share on {network}" class="btn btn-social-icon btn-{network}" onClick="sharePopup(\'' . $url . '\');">'
                         . '<i class="fa fa-{network}"></i></a>',
                         $this->template
                     );
@@ -163,7 +163,7 @@ class Widget extends \yii\base\Widget {
                 case self::TYPE_LARGE:
                     $button = str_replace(
                         '{button}',
-                        '<a href="#" class="btn btn-block btn-social btn-{network}" onClick="sharePopup(\'' . $url . '\');">'
+                        '<a href="#" data-toggle="tooltip" data-placement="top" title="Share on {network}" class="btn btn-block btn-social btn-{network}" onClick="sharePopup(\'' . $url . '\');">'
                         . '<i class="fa fa-{network}"></i> {text}</a>',
                         $this->template
                     );
