@@ -154,16 +154,18 @@ class Widget extends \yii\base\Widget {
             switch ($this->type) {
                 case self::TYPE_SMALL:
                     $button = str_replace(
-                        '{button}',
+                        '{button}', 
                         '<a href="#" data-toggle="tooltip" data-placement="top" title="Share on {network}" class="btn btn-social-icon btn-{network}" onClick="sharePopup(\'' . $url . '\');">'
+ 
                         . '<i class="fa fa-{network}"></i></a>',
                         $this->template
                     );
                     break;
                 case self::TYPE_LARGE:
                     $button = str_replace(
-                        '{button}',
+                        '{button}', 
                         '<a href="#" data-toggle="tooltip" data-placement="top" title="Share on {network}" class="btn btn-block btn-social btn-{network}" onClick="sharePopup(\'' . $url . '\');">'
+ 
                         . '<i class="fa fa-{network}"></i> {text}</a>',
                         $this->template
                     );
